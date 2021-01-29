@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(90deg, rgba(173,103,138,1) 0%, rgba(18,10,67,1) 100%);
+}
+
+.navbar {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 40pt;
+    font-family: 'Great Vibes', cursive;
+}
+
+#icon {  
+    height: 50px;
+}
+
+.btnAdd {
+    background: linear-gradient(90deg, rgba(234,206,110,0.8851249972645308) 0%, rgba(164,105,9,0.6162174342393207) 100%);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.error {
+    color: white;
+}
+
+.complete {
+    background: linear-gradient(90deg, rgba(255,255,255,0.23482849604221634) 0%, rgba(255,255,255,0.2137203166226913) 100%);
+}
+
+.btnCheck {
+    margin-right: 0.7rem;
+    background-color: #ad678a;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnComplete {
+    background-color: #cca1b7;
+    border-radius: 8px;
+    font-weight: 500;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.displayNone {
+    visibility: hidden;
+}
+
+.btnDelete {
+    padding: 5px 15px;
+    width: 10px;
+    height: 40px;
+    margin-left: 0.7rem;
+    background-color: #cca1b7;
+    width: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.todo {
+    border-radius: 10px;
+}
+
+.todo h3 {
+    font-size: 12pt;
+    color: black;
+}
